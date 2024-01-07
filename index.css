@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto','proxima-nova', sans-serif;
+    font-size: 18px;
+}
+.container{
+    display: flex;
+    width: 500px;
+    margin: auto;
+    flex-direction: column;
+    background-color:cornflowerblue;    
+    border: 1px solid #000;
+}
+.timeScoreContainer{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+.btnNumber{
+    width: 50%;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: #000;
+    border: 1px solid #fff;
+}
+.timer{
+    border-right: 0px;
+}
+.gameContainer{
+    position: relative;
+}
+.btnContainer{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 30px;
+}
+.btn{
+    padding: 10px;;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: cornflowerblue;   ;
+    border: 1px solid #fff;
+    background-color: #fff;
+    margin: 0px 20px;
+    cursor: pointer;
+    border-radius: 5px;;
+}
+table {
+    width: 100%;
+    margin-top: 50px;
+}
+table tr td{
+    width: 33.33%;
+    text-align: center;
+    color: #fff;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+.hidden{
+    display: none;
+}
+.resultContainer{
+    text-align: center;
+    color: #fff
+}
